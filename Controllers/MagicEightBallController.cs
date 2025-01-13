@@ -15,7 +15,7 @@ namespace AllForOneApi.Controllers
         }
 
         [HttpGet]
-        [Route("Question")]
+        [Route("Question/{input}")]
         public string Question()
         {
             return _magicEightBallServices.Question();
