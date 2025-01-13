@@ -10,6 +10,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<SayHelloServices>();
 builder.Services.AddScoped<AskingQuestionsServices>();
+builder.Services.AddScoped<AddTwoNumbersServices>();
+builder.Services.AddScoped<MabLibServices>();
 
 var app = builder.Build();
 

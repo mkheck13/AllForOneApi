@@ -4,12 +4,14 @@ namespace AllForOneApi.Services
     {
         public string SayHello(string userName)
         {
-            if(!string.IsNullOrEmpty(userName))
+            if (!string.IsNullOrEmpty(userName))
             {
                 return $"Hello {userName}.";
-            }else{
+            }
+            else
+            {
                 return "Hello Mr/Mrs/Miss. NoName";
             }
-        } 
+        }
     }
 }

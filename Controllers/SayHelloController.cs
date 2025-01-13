@@ -9,7 +9,8 @@ namespace AllForOneApi.Controllers
     {
         private readonly SayHelloServices _sayHelloServices;
 
-        public SayHelloController(SayHelloServices sayHelloServices){
+        public SayHelloController(SayHelloServices sayHelloServices)
+        {
             _sayHelloServices = sayHelloServices;
         }
 
