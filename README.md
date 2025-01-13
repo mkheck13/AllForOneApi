@@ -41,6 +41,6 @@ Hard Mode 1-100
 
 ## FeedBack/Peer Review: 
 
-**Reviewer:** "Name Here"
+**Reviewer:** "Brock Spacek"
 
-**Comments:** "Review Here"
+**Comments:** "Checked and Reviewed with Swagger and Postman! All your code is functional and runs smoothly. Great use of validation to make sure the user is inputting the correct response. The only nitpick that I see is that I can't input a question for the Magic 8 ball game. I checked the code and there is no parameter for the user to enter. Not sure if this was intentional or not. You also deleted all unnecessary "using" statements besides the ones in GuessItServices. Everything else runs great!"
