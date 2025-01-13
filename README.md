@@ -14,13 +14,13 @@
 
 [x]4. MadLib: create an endpoint that accepts multiple inputs.  Output should be a story based on those values.
 
-[]5. OddOrEven: create an endpoint that displays if a number entered is odd or even.
+[x]5. OddOrEven: create an endpoint that displays if a number entered is odd or even.
 
-[]6. ReverseIt (Alphanumeric): endpoint that accepts a sequence of numbers and letters then reverses them.
+[x]6. ReverseIt (Alphanumeric): endpoint that accepts a sequence of numbers and letters then reverses them.
 
-[]7. ReverseIt (Numbers Only): endpoint that accepts a sequence of only numbers and reverses them.  Be sure to display the original characters before the reversed.
+[x]7. ReverseIt (Numbers Only): endpoint that accepts a sequence of only numbers and reverses them.  Be sure to display the original characters before the reversed.
 
-[]8. Magic 8 Ball: create a endpoint generates 8 unique responses. One controller
+[x]8. Magic 8 Ball: create a endpoint generates 8 unique responses. One controller
 
 
 []9. Guess It: create 3 endpoints (one controller) that takes an input, then outputs if the number is higher or lower than the number guessed.

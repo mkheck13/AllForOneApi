@@ -16,9 +16,9 @@ namespace AllForOneApi.Controllers
 
         [HttpGet]
         [Route("MabLib/{age}/{familyRelation}/{job}/{stageOfLife}/{thing}/{size}/{humanSettlment}/{toyBrand}/{profession}/{celestialBody}")]
-        public string mabLib(string age, string familyRelation, string job, string stageOfLife, string thing, string size, string humanSettlment, string toyBrand, string profession, string celestialBody)
+        public string MabLib(string age, string familyRelation, string job, string stageOfLife, string thing, string size, string humanSettlment, string toyBrand, string profession, string celestialBody)
         {
-            return _mabLibServices.mabLib(age, familyRelation, job, stageOfLife, thing, size, humanSettlment, toyBrand, profession, celestialBody);
+            return _mabLibServices.MabLib(age, familyRelation, job, stageOfLife, thing, size, humanSettlment, toyBrand, profession, celestialBody);
         }
     }
 }

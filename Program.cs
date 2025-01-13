@@ -12,6 +12,10 @@ builder.Services.AddScoped<SayHelloServices>();
 builder.Services.AddScoped<AskingQuestionsServices>();
 builder.Services.AddScoped<AddTwoNumbersServices>();
 builder.Services.AddScoped<MabLibServices>();
+builder.Services.AddScoped<OddOrEvenServices>();
+builder.Services.AddScoped<ReverseItAlphaServices>();
+builder.Services.AddScoped<ReverseItNumServices>();
+builder.Services.AddScoped<MagicEightBallServices>();
 
 var app = builder.Build();
 
