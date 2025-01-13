@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<SayHelloServices>();
+builder.Services.AddScoped<AskingQuestionsServices>();
 
 var app = builder.Build();
 

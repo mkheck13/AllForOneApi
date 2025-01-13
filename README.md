@@ -37,11 +37,10 @@ Hard Mode 1-100
 
 ## Link(s):
 
-[Github-Repo]()
-
+[Github-Repo](https://github.com/mkheck13/AllForOneApi)
 
 ## FeedBack/Peer Review: 
 
-**Reviewer:** 
+**Reviewer:** "Name Here"
 
-**Comments:**
+**Comments:** "Review Here"
