@@ -19,9 +19,9 @@ builder.Services.AddScoped<MagicEightBallServices>();
 builder.Services.AddScoped<GuessItServices>();
 builder.Services.AddScoped<RestaurantPickerServices>();
 
-builder.Services.AddCors(options =>{
+builder.Services.AddCors(options => {
     options.AddPolicy("AllowAll", 
-    policy =>{
+    policy => {
         policy.AllowAnyOrigin()
         .AllowAnyMethod()
         .AllowAnyHeader();
@@ -39,6 +39,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
