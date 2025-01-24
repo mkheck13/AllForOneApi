@@ -18,6 +18,8 @@ builder.Services.AddScoped<ReverseItNumServices>();
 builder.Services.AddScoped<MagicEightBallServices>();
 builder.Services.AddScoped<GuessItServices>();
 builder.Services.AddScoped<RestaurantPickerServices>();
+builder.Services.AddScoped<GreaterThenServices>();
+
 
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowAll", 
